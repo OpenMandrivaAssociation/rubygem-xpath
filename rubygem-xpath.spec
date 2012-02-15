@@ -5,7 +5,7 @@ Summary:	Generate XPath expressions from Ruby
 Name:		rubygem-%{rbname}
 
 Version:	0.1.4
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/jnicklas/xpath
