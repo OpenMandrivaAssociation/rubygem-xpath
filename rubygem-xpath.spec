@@ -10,6 +10,7 @@ Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/jnicklas/xpath
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
+Source1:	%{name}.rpmlintrc
 BuildRequires:	rubygems 
 BuildArch:	noarch
 
