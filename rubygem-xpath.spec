@@ -47,7 +47,6 @@ Documents, RDoc & RI documentation for %{name}.
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
-%{ruby_gemdir}/doc/%{rbname}-%{version}
 %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
 
 
