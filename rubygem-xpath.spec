@@ -36,14 +36,14 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xpath
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xpath/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec
-%{ruby_gemdir}/gems/%{rbname}-%{version}/spec/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec/fixtures
-%{ruby_gemdir}/gems/%{rbname}-%{version}/spec/fixtures/*.html
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xpath
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xpath/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/spec/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec/fixtures
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/spec/fixtures/*.html
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
