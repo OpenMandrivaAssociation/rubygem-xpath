@@ -15,12 +15,12 @@ BuildArch:	noarch
 XPath is a Ruby DSL for generating XPath expressions.
 
 %files
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xpath
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xpath/*.rb
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%dir %{gem_dir}/gems/%{rbname}-%{version}
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/xpath
+%{gem_dir}/gems/%{rbname}-%{version}/lib/xpath/*.rb
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 
 #----------------------------------------------------------------------------
 
@@ -33,8 +33,8 @@ Requires:	%{name} = %{EVRD}
 Documents, RDoc & RI documentation for %{name}.
 
 %files doc
-%{ruby_gemdir}/doc/%{rbname}-%{version}
-%{ruby_gemdir}/gems/%{rbname}-%{version}/README.md
+%{gem_dir}/doc/%{rbname}-%{version}
+%{gem_dir}/gems/%{rbname}-%{version}/README.md
 
 #----------------------------------------------------------------------------
 
