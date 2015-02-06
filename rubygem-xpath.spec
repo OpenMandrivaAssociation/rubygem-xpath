@@ -3,7 +3,7 @@
 Summary:	Generate XPath expressions from Ruby
 Name:		rubygem-%{rbname}
 Version:	2.0.0
-Release:	1
+Release:	2
 License:	GPLv2+ or Ruby
 Group:		Development/Ruby
 Url:		https://rubygems.org/gems/%{rbname}
